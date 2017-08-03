@@ -5,7 +5,6 @@ const del = require('del');
 const wiredep = require('wiredep').stream;
 const runSequence = require('run-sequence');
 const fs = require('fs');
-const speakers = JSON.parse(fs.readFileSync('speakers.json'));
 const ghPages = require('gulp-gh-pages');
 
 const $ = gulpLoadPlugins();
@@ -16,7 +15,7 @@ var dev = true;
 gulp.task('views', () => {
   return gulp.src('app/*.pug')
     .pipe($.plumber())
-    .pipe($.pug({pretty: true, locals: speakers}))
+    .pipe($.pug({pretty: true}))
     .pipe(gulp.dest('.tmp'))
     .pipe(reload({stream: true}));
 });
