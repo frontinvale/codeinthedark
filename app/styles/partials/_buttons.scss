@@ -1,0 +1,12 @@
+.button {
+  background-color: $yellow;
+  border-radius: 8px;
+  color: $gray;
+  font-family: $roboto-slab;
+  font-weight: 700;
+  padding: 11px 35px;
+  text-align: center;
+  transition: ease background-color .3s;
+
+  &:hover { background-color: $green; }
+}

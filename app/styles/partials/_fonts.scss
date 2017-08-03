@@ -1,0 +1,20 @@
+.is-roboto-slab { font-family: $roboto-slab }
+
+.is-green { color: $green }
+
+.is-bold { font-weight: 700 }
+
+.is-right { text-align: right; }
+
+
+.is-xl { font-size: $xl }
+.is-lg { font-size: $lg }
+
+@media only screen and (max-width: 1000px) {
+  html, body { font-size: $sm }
+  .is-xl { font-size: $lg }
+  .is-lg { font-size: $md }
+
+  .is-right { text-align: center; }
+
+}

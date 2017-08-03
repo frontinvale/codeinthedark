@@ -1,0 +1,27 @@
+.welcome {
+  align-items: center;
+  background: url('/images/bg-home.jpg') center center / cover fixed;
+  display: flex;
+  justify-content: space-around;
+  min-height: 100vh;
+  padding: 50px 30px;
+
+  p {
+    margin: 0 0 30px;
+  }
+
+  .divisor {
+    background-color: $white;
+    height: 1px;
+    margin: 20px 0;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    flex-direction: column;
+
+    .logo img {
+      max-height: 250px;
+      margin-bottom: 30px;
+    }
+  }
+}
