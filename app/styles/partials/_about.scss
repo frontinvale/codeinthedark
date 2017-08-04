@@ -40,8 +40,12 @@
 
 
 @media only screen and (max-width: 890px) {
+  .about {
+    padding: 100px 30px 0;
+  }
   .about-text {
     flex-direction: column;
+    margin: 100px 0 0;
 
     & > div > p:last-of-type {
       margin-bottom: 80px;
