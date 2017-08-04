@@ -1,6 +1,7 @@
 .is-roboto-slab { font-family: $roboto-slab }
 
 .is-green { color: $green }
+.is-yellow { color: $yellow }
 
 .is-bold { font-weight: 700 }
 
@@ -15,6 +16,6 @@
   .is-xl { font-size: $lg }
   .is-lg { font-size: $md }
 
-  .is-right { text-align: center; }
+  p { text-align: center!important; }
 
 }

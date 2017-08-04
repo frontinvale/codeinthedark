@@ -24,3 +24,27 @@
     }
   }
 }
+
+.about-text {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+
+  & > div {
+    margin: 0 50px;
+    & > p:first-of-type {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 890px) {
+  .about-text {
+    flex-direction: column;
+
+    & > div > p:last-of-type {
+      margin-bottom: 80px;
+    }
+  }
+}
