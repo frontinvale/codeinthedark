@@ -38,6 +38,21 @@
   }
 }
 
+.about-presenter {
+  text-align: center;
+  padding: 0 0 20px;
+
+  img {
+    border-radius: 50%;
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  p {
+    margin: 10px auto;
+    max-width: 500px;
+  }
+}
 
 @media only screen and (max-width: 890px) {
   .about {

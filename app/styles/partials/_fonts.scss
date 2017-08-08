@@ -1,8 +1,10 @@
 .is-roboto-slab { font-family: $roboto-slab }
 
+.is-white { color: $white }
 .is-green { color: $green }
 .is-yellow { color: $yellow }
 
+.is-regular { font-weight: 400 }
 .is-bold { font-weight: 700 }
 
 .is-right { text-align: right; }
@@ -10,6 +12,7 @@
 
 .is-xl { font-size: $xl }
 .is-lg { font-size: $lg }
+.is-sm { font-size: $sm }
 
 @media only screen and (max-width: 1000px) {
   html, body { font-size: $sm }
