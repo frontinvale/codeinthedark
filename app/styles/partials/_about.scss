@@ -36,6 +36,11 @@
       margin-bottom: 30px;
     }
   }
+
+  a {
+    text-decoration: underline;
+    color: $blue;
+  }
 }
 
 .about-presenter {
